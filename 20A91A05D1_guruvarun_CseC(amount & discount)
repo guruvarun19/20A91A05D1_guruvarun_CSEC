@@ -1,0 +1,31 @@
+amr=int(input("enter amt:"))
+d1=(0.1)*amt
+d2=(0.2)*amt
+d3=(0.3)*amt
+d4=(0.4)*amt
+if amt>=1000: 
+             print("discount",d1)
+             print("final amount", amount-d1)
+elif 1000>amt<=2000:
+             print("discount"d2)
+             print("final amount", amount-d2)
+elif 2000>amt<=3000:
+             print("discount",d3)
+             print("final amount", amount-d3)
+elif amt>=5000:
+             print("discount",d4)
+             print("final amount", amount-d4)
+else:
+             print("no discount")
+
+
+
+'''OUTPUT:::
+enter amt:1400
+discount 140.0
+final amount 1260.0
+
+enter amt:2500
+discount 750.0
+final amount 2250.0'''
+             
