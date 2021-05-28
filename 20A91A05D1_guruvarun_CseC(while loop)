@@ -1,0 +1,22 @@
+Start=int(input("enter start value"))
+End=int(input("enter end value"))
+Inc=int(input(xenter inc value"))
+while Start<=End:
+          print "start"
+            Start=Start+Inc
+
+
+
+
+'''output:
+enter Start value1
+enter end value15
+enter inc value2
+1
+3
+5
+7
+9
+11
+13
+15
