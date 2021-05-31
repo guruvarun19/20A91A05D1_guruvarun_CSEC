@@ -1,0 +1,15 @@
+n=int(input("enter n value"))
+i=1
+print("factors of the number %d".i)
+while (i<=n):
+         if(n%i==0):
+                 print("%d".i)
+         i=i+1
+
+
+'''output:
+enter n value4
+factors of the number4
+1
+2
+4
