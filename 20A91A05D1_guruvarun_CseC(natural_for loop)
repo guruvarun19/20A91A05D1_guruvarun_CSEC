@@ -1,0 +1,20 @@
+start=int(input("enter start value:"))
+end=int(input("enter end value:"))
+sc=int(input("step count value:"))
+for i in range(start,end,sc) :
+                print(i,)
+
+'''OUTPUT:
+enter starting value:1
+enter ending value:11
+step count:1
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10'''
