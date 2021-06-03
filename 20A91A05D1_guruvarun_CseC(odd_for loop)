@@ -1,0 +1,15 @@
+start=int(input("enter start value:"))
+end=int(input("enter end value:"))
+sc=int(input("step count value:"))
+for n in range(start,end,sc) :
+                print(n)
+
+'''OUTPUT:
+enter starting value:1
+enter ending value:11
+step count value:2
+1
+3
+5
+7
+9 '''
