@@ -1,0 +1,14 @@
+s="python"
+print(s.endswith("n"))
+res=s.endswith("n",0,6)
+print(res)
+print(s.endswith("n",0,5))
+b=s.endswith("N")
+print(b)
+
+
+'''output:
+True
+True
+False
+False
