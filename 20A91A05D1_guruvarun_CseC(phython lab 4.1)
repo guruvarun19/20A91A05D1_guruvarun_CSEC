@@ -1,0 +1,13 @@
+s=input()
+for ch in s:
+	     if(ch in 'aeiouAEIOU'):
+	     	     print(ch)
+
+
+
+
+
+'''output:
+Pythonlab
+o
+a'''
