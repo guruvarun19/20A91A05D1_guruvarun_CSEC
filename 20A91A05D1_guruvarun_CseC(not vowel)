@@ -1,0 +1,15 @@
+s=input()
+for ch in s:
+	     if(ch not in 'aeiouAEIOU'):
+	     	     print(ch)
+
+
+'''output:
+pythonlab
+p
+y
+t
+h
+n
+l
+b'''
