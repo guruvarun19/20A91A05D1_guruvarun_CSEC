@@ -1,0 +1,17 @@
+a=int(input("enter a value"))
+b=int(input("enter b value"))
+c=int(input("enter c value"))
+sum=a+b+c
+print(sum)
+avg=(a+b+c)/3
+print(avg)
+print(f'sum of numbers is {sum} and avg of num is {avg}')
+
+
+Output:
+enter a value3
+enter b value5
+enter c value4
+12
+4.0
+sum of numbers is 12 and avg of num is 4.0
